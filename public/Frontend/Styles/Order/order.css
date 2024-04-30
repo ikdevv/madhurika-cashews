@@ -1,0 +1,68 @@
+.order-image img {
+    width: 60px;
+}
+
+.order-page {
+    margin: 70px 10rem 10px 10rem;
+}
+
+.order-container {
+    display: block;
+}
+
+.order-table {
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c2c2c2;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.order-summery {
+    width: 30%;
+    background-color: #c2c2c2;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 70px;
+    margin-right: 10rem;
+}
+
+.order-summery-title {
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.order-summery table {
+    font-size: medium;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.order-summery button {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.order-summery button:hover {
+    background-color: blue;
+    color: white;
+}
